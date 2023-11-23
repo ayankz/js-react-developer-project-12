@@ -4,7 +4,8 @@
   "description": "[![Actions Status](https://github.com/ayankz/js-react-developer-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ayankz/js-react-developer-project-12/actions)",
   "main": "index.js",
   "scripts": {
-    "start": "npx start-server -s ./frontend/build"
+    "start": "npx start-server -s ./frontend/build",
+    "build": "npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
